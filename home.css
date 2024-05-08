@@ -1,0 +1,211 @@
+
+body {
+    font-family: sans-serif;
+    font-size: small;
+    margin: 0;
+    padding: 20px;
+    font-size: 0.8rem;
+    /* color: #34a853; */
+}
+.features {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 30px;
+}
+.feature {
+    text-align: center;
+    margin: 10px;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    width: 250px;
+}
+.feature h3 {
+    font-size: 1.3em;
+    margin-bottom: 5px;
+}
+.feature p {
+    font-size: 1em;
+    color: #333;
+}
+.cta {
+    text-align: center;
+    margin-top: 50px;
+}
+.cta a {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.nav-section{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.btn.btn-outline-success {
+    width: 100px;
+}
+
+.navbar-brand,li{
+    font-size: small;
+}  
+
+.navbar{
+    padding: 0 2.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    box-shadow: rgb(68, 67, 67) 1px 3px 5px;
+}
+ 
+.hero-section {
+    margin-top: 3.5rem;
+    background-size: cover;
+    background-position: center;
+    height: auto; 
+    width: 100%;
+}
+
+nav{
+    padding: auto auto;
+    font-weight: bold ;
+}
+
+.btn{
+    margin: 2.5px;
+    border-radius: 0.5rem;
+    font-weight: bold;
+    border: solid 1px #34a853;
+}
+
+.signup{
+    color: white;
+    background-color: #34a853;
+}
+
+.signup:hover{
+    background-color: white;
+    color: #34a853;
+    border: solid 1px #34a853;
+}
+
+.login{
+    color: #34a853;
+}
+
+.login:hover{
+    background-color: #34a853;
+    color: white;
+    border: solid 1px #34a853;
+}
+
+.hero-section{
+    width: 100%;
+    height: auto;
+    display: flex;
+}
+.hero-section h1{
+    font-size: 3em;
+    font-weight: bolder;
+    color: #1f5f30;
+}
+.hero-section p{
+    color: rgb(75, 78, 75);
+    font-size: 1.5em;
+}
+
+.hero-section-text{
+    padding: 5% 5% 5% 5%;
+    width: 70%;
+}
+.hero-img{
+    width: 40%;
+}
+
+.nav-link{
+    font-size: large;
+    font-weight: light;
+}
+.nav-item{
+    margin: 0 10px;
+}
+.nav-link:hover{
+    color: rgb(131, 128, 128) !important
+}
+.logo{
+    color: #34a853;
+    font-weight: bold;
+}
+.download_btn{
+    text-align: center;
+    width: 10%;
+    height: 40px;
+    font-size: 15px;
+    position: absolute;
+
+    color: white;
+    font-weight: bold;
+    background-color: #3852ba;
+    border-radius: 10px;
+    border: none;
+}
+.download_btn:hover{
+    color: #3852ba;
+    background-color: white;
+    border: solid 1px #3852ba;
+}
+.icon{
+    color: white;
+    width: 70px;
+    height: 70px;
+    border-radius: 50%;
+    background-color: #1f5f30;
+    font-size: 2.1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.product-features{
+    padding: 0 40px;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.feature-element{
+    padding: 2.5rem;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.texts{
+    margin-top: 5px;
+    color: #1f5f30;
+    font-weight: bold;
+    font-size: larger;
+} 
+.hero-section img{
+    width: 30%;
+    height: 30%;
+} 
+
+@media (max-width: 768px) {
+    .hero-section {
+      flex-direction: column; 
+    }
+  
+    .hero-section-text {
+      width: 100%; 
+    }
+  
+    .hero-img {
+      margin-top: 20px; 
+    }
+  }
+  
